@@ -1,0 +1,122 @@
+
+<div class="registroformulario"><h1>Formulário de Cadastro </h1>
+</div>
+        
+
+    <div class="conteudo">
+
+            <form>
+
+                <div id="nome">
+
+                    <h2 class="nome">Nome e Sobrenome</h2>
+                    <input class="primeironome" type="text" name="primeiro_nome"><br>
+                    <label class="primeirolabel">Nome</label>
+                    <input class="sobrenome" type="text" name="sobre_nome">
+                    <label class="sobrenomelabel">Sobrenome</label>
+                    
+                </div><br>
+
+                <h2 class="nome" for="idade">Data de Nascimento</h2>
+                <input class="nascimento" id="idade" type="date" id="idade" name="f_idade" /><br>
+                
+                 <h2 class="nome" for="endereco">Digite seu endereço</h2>
+                <input
+                class="endereco"
+                id="endereco"
+                type="text"
+                name="f_endereco"
+                placeholder="Digite Aqui"
+                /><br>
+
+                <h2 class="nome" for="CEP">CEP:</h2>
+                <input type="text" name="CEP" class="cep" pattern="\d{5}-\d{3}" placeholder="12345-123"/><br>
+            
+
+                <h2 class="nome">Voce é PCD?</h2>
+                <label class="radio">
+                    <input class="radio-one" type="radio"  name="f_pcd">
+                    <span class="checkmark"></span>
+                    Sim
+                </label>
+        
+                    <label class="radio">
+                    <input class="radio-one" type="radio"  name="f_pcd">
+                    <span class="checkmark"></span>
+                    Não
+                    </label>
+                     <br />
+        
+
+                <br><h2 class="nome">Escola e ano de conclusão</h2>
+                <input class="instituicao" type="text" name="instituicao">
+                <input class="conclusao" type="date" name="conclusao"><br>
+
+
+                <h2 class="nome">Email</h2>
+                <input class="email" type="email" name="email" placeholder="Escreva aqui"><br>
+
+
+
+                <h2 class="nome">Telefone com DDD</h2>
+                <input class="codigo" type="tel" name="codigo_area" pattern="[0-9]{2}">
+                <label class="codigo_area">DDD</label>
+                <input class="number" type="tel" name="phone" pattern="[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-/[0-9]-[0-9]-[0-9]-[0-9]">
+                <label class="numero-telefone">Telefone</label><br>
+                
+
+
+                <h2 class="nome">Sexo</h2>
+                <select class="opcoes" name="assunto">
+                    <option disabled="disabled" selected="selected">--Selecione a Opção</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                <option>Prefiro não me identificar</option><br>
+                    
+                </select>
+
+                <h2 class="nome">Genero</h2>
+                <select class="opcoes" name="assunto">
+                    <option disabled="disabled" selected="selected">--Selecione a Opção</option>
+                    <option>Cisgenero</option>
+                    <option>Transgenero</option>
+                <option>Prefiro não me identificar</option><br>
+                    
+                </select>
+
+
+                <h2 id="nivel">Qual o tipo de Ensino</h2>
+
+                <label class="radio">
+                    <input class="radio-one" type="radio"  name="f_ensino">
+                    <span class="checkmark"></span>
+                    Presencial
+                </label>
+
+                <label class="radio">
+                    <input class="radio-two" type="radio"  name="f_ensino">
+                    <span class="checkmark"></span>
+                    Semi-Presencial
+                </label>
+
+                 <label class="radio">
+                    <input class="radio-two" type="radio"  name="f_ensino">
+                    <span class="checkmark"></span>
+                    EAD
+                </label><br><br>
+
+                 <br> <h2 class="nome">Curso Desejado</h2>
+                <select class="curso" name="assunto">
+                    <option disabled="disabled" selected="selected">--Selecione seu Curso</option>
+                    <option>Engenaria da Computação</option>
+                    <option>Ciencia da Computação</option>
+                <option>Analise e desenvolvimento de Sistemas</option><br>
+            
+                    
+                </select>
+
+                <button type="submit">Enviar </button>
+
+            </form>
+    
+    </div>
